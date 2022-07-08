@@ -1,0 +1,27 @@
+/*------admin.layout------*/
+
+
+.navbar-logo {
+    top: 0;
+}
+
+.book {background-color: #ffa426;}
+.fa-book:before, .fa-tag:before, .fa-tags:before {font-size: 30px;}
+
+.btn-plus {
+    background-color: #98a6ad;
+    border-color: #98a6ad;
+    box-shadow: 0 2px 6px #98a6ad;
+}
+
+.btn-plus:active, .btn-plus:focus {background-color: #98a6ad;}
+
+.link-count {
+    font-weight: 600;
+}
+
+.link-count:hover {
+    color: #3abdc4;
+    text-decoration: none;
+}
+
