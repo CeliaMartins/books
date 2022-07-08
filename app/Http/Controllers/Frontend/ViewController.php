@@ -35,7 +35,7 @@ class ViewController extends Controller
     //pesquisa por autor
     public function search(Request $request)
     {
-      /* dd("pesquisando por {$request->search}"); */
+      //dd("pesquisando por {$request->search}");
       $filters = $request->all();
       $all_posts = Book::where('post_title', 'LIKE', "%{$request->search}%")  
                         ->orwhere('author', 'LIKE', "%{$request->search}%") 
